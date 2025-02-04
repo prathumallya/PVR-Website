@@ -15,19 +15,34 @@
       width: 50%;
     }
   } 
-body
-{
-  background-color: #AB886D;
-  align-items: center;
-  background-image: url(mimg.png);
-  background-size: cover;
-}
+  body
+  {
+    background-color: #AB886D;
+    align-items: center;
+    background-image: url(mimg.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+
+  }
 
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
 
+
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(#493628, transparent);
+    z-index: 100;
 }
 
 
@@ -107,6 +122,13 @@ body
     transform: translateY(-70px);
 }
 
+.t1 h6{
+    margin-left: 104px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
+}
+
 .t1:hover{
    
     background-color: #493628;
@@ -137,6 +159,12 @@ body
     margin-left: 45px;
     transform: translateY(-70px);
 }
+.t2 h6{
+    margin-left: 120px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
+}
 .t2:hover{
    
     background-color: #493628;
@@ -166,6 +194,12 @@ body
 .t3 h4{
     margin-left: 67px;
     transform: translateY(-70px);
+}
+.t3 h6{
+    margin-left: 120px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
 }
 
 .t3:hover{
@@ -199,6 +233,13 @@ body
     transform: translateY(-70px);
 }
 
+.t4 h6{
+    margin-left: 115px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
+}
+
 .t4:hover{
    
     background-color: #493628;
@@ -229,6 +270,12 @@ body
 .t5 h4{
     margin-left: 120px;
     transform: translateY(-70px);
+}
+.t5 h6{
+    margin-left: 110px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
 }
 
 .t5:hover{
@@ -263,6 +310,13 @@ body
     transform: translateY(-70px);
 }
 
+.t6 h6{
+    margin-left: 117px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
+}
+
 .t6:hover{
    
     background-color: #493628;
@@ -291,8 +345,15 @@ body
 }
 
 .t7 h4{
-    margin-left: 75px;
+    margin-left: 68px;
     transform: translateY(-70px);
+}
+
+.t7 h6{
+    margin-left: 117px;
+    transform: translateY(-71px);
+    font-weight: 350;
+
 }
 
 .t7:hover{
@@ -302,14 +363,15 @@ body
 
 
 
-.footer {
+.f {
     width: 100%;
     height: 150px;
     background-color: #493628;
     color: #E4E0E1;
+    transform: translateY(-2464px);
 }
 
-.footer p{
+.f p{
 
     color: #E4E0E1;
     font-size: 50px;
@@ -320,7 +382,7 @@ body
 }
 
 
-.footer h6{
+.f h6{
     font-weight: 100;
     font-size: 12px;
     margin-left: 1000px;
